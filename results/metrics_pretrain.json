@@ -1,0 +1,140 @@
+{
+  "model_name": "EfficientAT mn10_as",
+  "checkpoint": "mn10_as_mAP_471.pt",
+  "checkpoint_sha256": "0bd7dc2443af498c289a2e739f02ebb515d6aa3fd3ab9db539c86123ae368a4e",
+  "checkpoint_url": "https://github.com/fschmid56/EfficientAT/releases/download/v0.0.1/mn10_as_mAP_471.pt",
+  "citation": "Schmid, Koutini, Widmer, Efficient Large-scale Audio Tagging via Transformer-to-CNN Knowledge Distillation, ICASSP 2023",
+  "backbone_parameters_frozen": 4876831,
+  "embedding": "adaptive average pool of the last conv map, before the AudioSet MLP head",
+  "embedding_dim": 960,
+  "frozen": true,
+  "preprocess": {
+    "channel": 0,
+    "input_sr": 16000,
+    "model_sr": 32000,
+    "resample": "torch.nn.functional.interpolate linear, align_corners=False, 40000 -> 80000",
+    "mel": "AugmentMelSTFT eval mode, n_mels=128, n_fft=1024, win=800, hop=320, fmax=15000, no freq/time mask"
+  },
+  "n_clips": 41495,
+  "split_counts": {
+    "train": 28426,
+    "val": 6226,
+    "test": 6843
+  },
+  "split_source": "/workspace/insect-sound/manifest_quarter.json",
+  "recording_id_overlap": 0,
+  "subsampled": false,
+  "extract_seconds": 229.731764793396,
+  "standardize": "StandardScaler fit on train embeddings only",
+  "selection_rule": "max validation macro F1; ties: higher val accuracy, then logistic over MLP, then smaller C or hidden",
+  "val_grid": [
+    {
+      "kind": "logistic",
+      "C": 0.01,
+      "hidden": null,
+      "val_macro_f1": 0.4863154077853993,
+      "val_accuracy": 0.6000642467073563,
+      "val_correct": 3736,
+      "n_iter": 289,
+      "seconds": 52.524978160858154
+    },
+    {
+      "kind": "logistic",
+      "C": 0.1,
+      "hidden": null,
+      "val_macro_f1": 0.48861535107746584,
+      "val_accuracy": 0.6021522646964343,
+      "val_correct": 3749,
+      "n_iter": 400,
+      "seconds": 66.02307868003845
+    },
+    {
+      "kind": "logistic",
+      "C": 1.0,
+      "hidden": null,
+      "val_macro_f1": 0.47308590286074415,
+      "val_accuracy": 0.586251204625763,
+      "val_correct": 3650,
+      "n_iter": 400,
+      "seconds": 56.62769341468811
+    },
+    {
+      "kind": "logistic",
+      "C": 10.0,
+      "hidden": null,
+      "val_macro_f1": 0.4692903233769569,
+      "val_accuracy": 0.5819145518792161,
+      "val_correct": 3623,
+      "n_iter": 400,
+      "seconds": 58.31645083427429
+    },
+    {
+      "kind": "logistic",
+      "C": 100.0,
+      "hidden": null,
+      "val_macro_f1": 0.4687233782587916,
+      "val_accuracy": 0.5812720848056537,
+      "val_correct": 3619,
+      "n_iter": 400,
+      "seconds": 65.53897976875305
+    },
+    {
+      "kind": "mlp",
+      "C": null,
+      "hidden": 64,
+      "best_epoch": 8,
+      "val_macro_f1": 0.5083802274082142,
+      "val_accuracy": 0.615001606167684,
+      "val_correct": 3829,
+      "seconds": 1.4597632884979248
+    },
+    {
+      "kind": "mlp",
+      "C": null,
+      "hidden": 128,
+      "best_epoch": 3,
+      "val_macro_f1": 0.5048197014815275,
+      "val_accuracy": 0.6236749116607774,
+      "val_correct": 3883,
+      "seconds": 0.942878007888794
+    }
+  ],
+  "selected_head": "MLP Linear(960->64)-ReLU-Linear(64->12), Adam lr 0.001, weight decay 1e-4, inverse-frequency class weights, early stop on val macro F1 (patience 5, max 40), best epoch 8",
+  "selected_head_parameters": 62284,
+  "test_n": 6843,
+  "test_correct": 3253,
+  "test_accuracy": 0.47537629694578404,
+  "test_macro_f1": 0.446051467654859,
+  "test_recall": {
+    "Aphidoletes_aphidimyza": 0.8729446935724963,
+    "Bombus_terrestris": 0.5743801652892562,
+    "Bradysia_difformis": 0.6524486571879937,
+    "Coccinella_septempunctata": 0.7522935779816514,
+    "Episyrphus_balteatus": 0.9182948490230906,
+    "Halyomorpha_halys": 0.28078817733990147,
+    "Myzus_persicae": 0.0970873786407767,
+    "Nezara_viridula": 0.1849390919158361,
+    "Palomena_prasina": 0.33695652173913043,
+    "Rhaphigaster_nebulos": 0.40492170022371365,
+    "Trialeurodes_vaporariorum": 0.25229357798165136,
+    "Tuta_absoluta": 0.27722772277227725
+  },
+  "cnn_mean_accuracy": 0.44064494130254755,
+  "beats_cnn_mean": true,
+  "comparison_baselines": {
+    "majority_accuracy": 0.031857372497442644,
+    "majority_correct": 218,
+    "majority_macro_f1": 0.005145635651229759,
+    "linear_accuracy": 0.41911442349846556,
+    "linear_correct": 2868,
+    "linear_macro_f1": 0.4050805645363438,
+    "plain_cnn_mean_accuracy": 0.44064494130254755,
+    "plain_cnn_mean_macro_f1": 0.44358547200177445,
+    "ctm_mean_accuracy": 0.37960933313848705,
+    "ctm_mean_macro_f1": 0.33998841292639254,
+    "test_n": 6843
+  },
+  "elapsed_seconds": 533.1602079868317,
+  "backbone_parameters_note": "nn.Module parameters only, not BatchNorm buffers. Includes the unused AudioSet classifier (1905167) plus the feature extractor (2971664). The probe uses the 960-d pooled conv embedding, not the AudioSet logits.",
+  "logistic_convergence": "C=0.01 stopped at 289 lbfgs iterations. C in {0.1, 1, 10, 100} hit max_iter=400 without convergence. Those four validation scores are therefore incomplete fits. The selected head was the MLP, which did not use lbfgs."
+}

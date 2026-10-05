@@ -1,0 +1,7 @@
+# Imported by the scripts in this repo (developed with Python 3.13, numpy 2.5.3, torch 2.14.1, scikit-learn 1.9.1)
+numpy
+torch
+scikit-learn
+# Only for pretrain_probe.py, needed by the external EfficientAT code (https://github.com/fschmid56/EfficientAT):
+# torchaudio
+# torchvision

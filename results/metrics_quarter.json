@@ -1,0 +1,1312 @@
+{
+  "data": {
+    "source": "InsectSound1000 official OpenAgrar ZIP, real clips, not a fallback",
+    "doi": "10.5073/20231024-173119-0",
+    "n_clips": 41495,
+    "clips_per_species": {
+      "Aphidoletes_aphidimyza": 4066,
+      "Bombus_terrestris": 4066,
+      "Bradysia_difformis": 4066,
+      "Coccinella_septempunctata": 4066,
+      "Episyrphus_balteatus": 4066,
+      "Halyomorpha_halys": 4066,
+      "Myzus_persicae": 3208,
+      "Nezara_viridula": 4066,
+      "Palomena_prasina": 4065,
+      "Rhaphigaster_nebulos": 4065,
+      "Trialeurodes_vaporariorum": 1062,
+      "Tuta_absoluta": 633
+    },
+    "split_counts": {
+      "train": 28426,
+      "val": 6226,
+      "test": 6843
+    },
+    "per_species": {
+      "Aphidoletes_aphidimyza": {
+        "archive_files": 14065,
+        "n_ids_archive": 5,
+        "sampled": 4066,
+        "train": 2962,
+        "val": 435,
+        "test": 669,
+        "reused_on_disk_at_plan": 1173,
+        "train_ids": [
+          "2022323-13-1",
+          "202253-16-31",
+          "202254-16-17"
+        ],
+        "val_ids": [
+          "2022324-13-48"
+        ],
+        "test_ids": [
+          "202252-18-31"
+        ],
+        "capped": false,
+        "target": 4066
+      },
+      "Bombus_terrestris": {
+        "archive_files": 18291,
+        "n_ids_archive": 3,
+        "sampled": 4066,
+        "train": 1735,
+        "val": 1363,
+        "test": 968,
+        "reused_on_disk_at_plan": 381,
+        "train_ids": [
+          "2023510-16-19"
+        ],
+        "val_ids": [
+          "202359-16-42"
+        ],
+        "test_ids": [
+          "2023427-16-31"
+        ],
+        "capped": false,
+        "target": 4066
+      },
+      "Bradysia_difformis": {
+        "archive_files": 11394,
+        "n_ids_archive": 3,
+        "sampled": 4066,
+        "train": 2508,
+        "val": 925,
+        "test": 633,
+        "reused_on_disk_at_plan": 380,
+        "train_ids": [
+          "2022329-13-41"
+        ],
+        "val_ids": [
+          "2022330-13-52"
+        ],
+        "test_ids": [
+          "2022331-13-52"
+        ],
+        "capped": false,
+        "target": 4066
+      },
+      "Coccinella_septempunctata": {
+        "archive_files": 14682,
+        "n_ids_archive": 7,
+        "sampled": 4066,
+        "train": 3656,
+        "val": 192,
+        "test": 218,
+        "reused_on_disk_at_plan": 376,
+        "train_ids": [
+          "2023419-16-18",
+          "2023419-16-19",
+          "2023420-16-9",
+          "2023425-16-21",
+          "2023425-16-22"
+        ],
+        "val_ids": [
+          "2023424-16-23"
+        ],
+        "test_ids": [
+          "2023418-15-24"
+        ],
+        "capped": false,
+        "target": 4066
+      },
+      "Episyrphus_balteatus": {
+        "archive_files": 16868,
+        "n_ids_archive": 6,
+        "sampled": 4066,
+        "train": 3026,
+        "val": 477,
+        "test": 563,
+        "reused_on_disk_at_plan": 378,
+        "train_ids": [
+          "2023511-16-37",
+          "2023515-16-42",
+          "2023612-16-19",
+          "2023613-16-37"
+        ],
+        "val_ids": [
+          "2023615-16-27"
+        ],
+        "test_ids": [
+          "2023614-16-27"
+        ],
+        "capped": false,
+        "target": 4066
+      },
+      "Halyomorpha_halys": {
+        "archive_files": 19671,
+        "n_ids_archive": 7,
+        "sampled": 4066,
+        "train": 2698,
+        "val": 759,
+        "test": 609,
+        "reused_on_disk_at_plan": 377,
+        "train_ids": [
+          "2022421-8-56",
+          "2022425-18-24",
+          "2022524-16-36",
+          "2022530-16-6",
+          "2022531-16-10"
+        ],
+        "val_ids": [
+          "202261-15-3"
+        ],
+        "test_ids": [
+          "2022421-16-34"
+        ],
+        "capped": false,
+        "target": 4066
+      },
+      "Myzus_persicae": {
+        "archive_files": 3208,
+        "n_ids_archive": 5,
+        "sampled": 3208,
+        "train": 2441,
+        "val": 252,
+        "test": 515,
+        "reused_on_disk_at_plan": 373,
+        "train_ids": [
+          "2022224-14-57",
+          "2022328-14-18",
+          "2022630-16-13"
+        ],
+        "val_ids": [
+          "202275-15-46"
+        ],
+        "test_ids": [
+          "202276-16-47"
+        ],
+        "capped": false,
+        "target": 3208
+      },
+      "Nezara_viridula": {
+        "archive_files": 20323,
+        "n_ids_archive": 8,
+        "sampled": 4066,
+        "train": 2852,
+        "val": 311,
+        "test": 903,
+        "reused_on_disk_at_plan": 376,
+        "train_ids": [
+          "2022512-17-17",
+          "2022523-16-40",
+          "2022613-16-53",
+          "2022614-15-44",
+          "2022616-15-51",
+          "202268-16-20"
+        ],
+        "val_ids": [
+          "202262-15-28"
+        ],
+        "test_ids": [
+          "2022511-18-10"
+        ],
+        "capped": false,
+        "target": 4066
+      },
+      "Palomena_prasina": {
+        "archive_files": 27340,
+        "n_ids_archive": 10,
+        "sampled": 4065,
+        "train": 3075,
+        "val": 438,
+        "test": 552,
+        "reused_on_disk_at_plan": 374,
+        "train_ids": [
+          "2022810-16-50",
+          "2022811-16-28",
+          "2022815-16-45",
+          "2022816-16-30",
+          "2022817-17-26",
+          "202288-16-29",
+          "202289-16-44",
+          "202297-15-37"
+        ],
+        "val_ids": [
+          "202295-17-17"
+        ],
+        "test_ids": [
+          "202298-17-57"
+        ],
+        "capped": false,
+        "target": 4065
+      },
+      "Rhaphigaster_nebulos": {
+        "archive_files": 18445,
+        "n_ids_archive": 6,
+        "sampled": 4065,
+        "train": 2263,
+        "val": 908,
+        "test": 894,
+        "reused_on_disk_at_plan": 378,
+        "train_ids": [
+          "2023105-17-35",
+          "2023914-16-48",
+          "2023918-17-42",
+          "2023925-17-5"
+        ],
+        "val_ids": [
+          "2023919-16-30"
+        ],
+        "test_ids": [
+          "2023104-16-43"
+        ],
+        "capped": false,
+        "target": 4065
+      },
+      "Trialeurodes_vaporariorum": {
+        "archive_files": 1062,
+        "n_ids_archive": 6,
+        "sampled": 1062,
+        "train": 752,
+        "val": 92,
+        "test": 218,
+        "reused_on_disk_at_plan": 354,
+        "train_ids": [
+          "2022719-16-24",
+          "2022912-16-11",
+          "2022913-17-18",
+          "2022922-15-23"
+        ],
+        "val_ids": [
+          "2022720-16-16"
+        ],
+        "test_ids": [
+          "2022914-15-32"
+        ],
+        "capped": false,
+        "target": 1062
+      },
+      "Tuta_absoluta": {
+        "archive_files": 633,
+        "n_ids_archive": 8,
+        "sampled": 633,
+        "train": 458,
+        "val": 74,
+        "test": 101,
+        "reused_on_disk_at_plan": 348,
+        "train_ids": [
+          "2022627-17-3",
+          "2022628-16-22",
+          "2022711-16-27",
+          "2022712-16-48",
+          "2022713-15-28",
+          "2022725-16-33"
+        ],
+        "val_ids": [
+          "202277-16-47"
+        ],
+        "test_ids": [
+          "2022714-16-8"
+        ],
+        "capped": false,
+        "target": 633
+      }
+    },
+    "split_rule": "Whole recording ids. For each species the id whose full-archive file count is closest to 15% is entirely test; the remaining id closest to 15% is entirely validation; all other ids are train. Clips are then subsampled evenly inside those ids up to 320 per species. No id is in two splits.",
+    "test_n": 6843,
+    "val_n": 6226,
+    "train_n": 28426,
+    "train_class_counts": [
+      2962.0,
+      1735.0,
+      2508.0,
+      3656.0,
+      3026.0,
+      2698.0,
+      2441.0,
+      2852.0,
+      3075.0,
+      2263.0,
+      752.0,
+      458.0
+    ],
+    "audio": "channel 0 of 4-ch 2.5s 16kHz float32",
+    "features": {
+      "n_fft": 512,
+      "hop": 512,
+      "n_mels": 32,
+      "shape": [
+        32,
+        78
+      ]
+    }
+  },
+  "protocol_locked_before_test": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "max_epochs": 16,
+    "patience": 4,
+    "lr": 0.001,
+    "augmentation_train_only": "gaussian noise std 0.15, time roll +/-3 frames, 3-bin frequency mask",
+    "class_weight_neural": "inverse train frequency",
+    "linear_class_weight": "balanced",
+    "C_grid": [
+      0.01,
+      0.1,
+      1.0,
+      10.0,
+      100.0
+    ],
+    "ctm_decision": "most certain tick",
+    "ctm_loss": "0.5 * (CE at lowest-loss tick + CE at highest-certainty tick)",
+    "early_stop": "validation macro F1"
+  },
+  "models": {
+    "majority_label": "Coccinella_septempunctata",
+    "majority_test_accuracy": 0.031857372497442644,
+    "majority_test_macro_f1": 0.005145635651229759,
+    "majority_test_correct": 218,
+    "majority_recall": {
+      "Aphidoletes_aphidimyza": 0.0,
+      "Bombus_terrestris": 0.0,
+      "Bradysia_difformis": 0.0,
+      "Coccinella_septempunctata": 1.0,
+      "Episyrphus_balteatus": 0.0,
+      "Halyomorpha_halys": 0.0,
+      "Myzus_persicae": 0.0,
+      "Nezara_viridula": 0.0,
+      "Palomena_prasina": 0.0,
+      "Rhaphigaster_nebulos": 0.0,
+      "Trialeurodes_vaporariorum": 0.0,
+      "Tuta_absoluta": 0.0
+    },
+    "linear_C": 0.1,
+    "linear_grid": [
+      {
+        "C": 0.01,
+        "val_macro_f1": 0.3705950201452964,
+        "val_acc": 0.45374237070350143
+      },
+      {
+        "C": 0.1,
+        "val_macro_f1": 0.3988882015459783,
+        "val_acc": 0.4847414070028911
+      },
+      {
+        "C": 1.0,
+        "val_macro_f1": 0.3969582251072635,
+        "val_acc": 0.48458079023450046
+      },
+      {
+        "C": 10.0,
+        "val_macro_f1": 0.3886307733648973,
+        "val_acc": 0.47783488596209445
+      },
+      {
+        "C": 100.0,
+        "val_macro_f1": 0.38733859403721654,
+        "val_acc": 0.477192418888532
+      }
+    ],
+    "linear_test_accuracy": 0.41911442349846556,
+    "linear_test_macro_f1": 0.4050805645363438,
+    "linear_test_correct": 2868,
+    "linear_val_accuracy": 0.4847414070028911,
+    "linear_val_macro_f1": 0.3988882015459783,
+    "linear_recall": {
+      "Aphidoletes_aphidimyza": 0.8953662182361734,
+      "Bombus_terrestris": 0.40392561983471076,
+      "Bradysia_difformis": 0.7109004739336493,
+      "Coccinella_septempunctata": 0.7798165137614679,
+      "Episyrphus_balteatus": 0.8241563055062167,
+      "Halyomorpha_halys": 0.14614121510673234,
+      "Myzus_persicae": 0.02524271844660194,
+      "Nezara_viridula": 0.04318936877076412,
+      "Palomena_prasina": 0.302536231884058,
+      "Rhaphigaster_nebulos": 0.3277404921700224,
+      "Trialeurodes_vaporariorum": 0.8119266055045872,
+      "Tuta_absoluta": 0.15841584158415842
+    },
+    "plain_parameters": 38508,
+    "ctm_parameters": 40179,
+    "ctm_ticks": 6,
+    "d_model": 80,
+    "memory": 8,
+    "k_sync": 14
+  },
+  "seeds": [
+    {
+      "seed": 0,
+      "plain": {
+        "best_epoch": 13,
+        "best_val_macro_f1": 0.46834873724308146,
+        "epochs_ran": 16,
+        "seconds": 112.94477367401123,
+        "history": [
+          {
+            "epoch": 1,
+            "val_acc": 0.4089302923225185,
+            "val_macro_f1": 0.33241861532243794
+          },
+          {
+            "epoch": 2,
+            "val_acc": 0.42145840025698683,
+            "val_macro_f1": 0.348838927559633
+          },
+          {
+            "epoch": 3,
+            "val_acc": 0.49325409572759393,
+            "val_macro_f1": 0.3824301580238871
+          },
+          {
+            "epoch": 4,
+            "val_acc": 0.5473819466752329,
+            "val_macro_f1": 0.4150503201823674
+          },
+          {
+            "epoch": 5,
+            "val_acc": 0.47783488596209445,
+            "val_macro_f1": 0.40300889006745705
+          },
+          {
+            "epoch": 6,
+            "val_acc": 0.5025698682942499,
+            "val_macro_f1": 0.4024360867321961
+          },
+          {
+            "epoch": 7,
+            "val_acc": 0.5380661741085769,
+            "val_macro_f1": 0.4344721560354144
+          },
+          {
+            "epoch": 8,
+            "val_acc": 0.5281079344683585,
+            "val_macro_f1": 0.44388024008784294
+          },
+          {
+            "epoch": 9,
+            "val_acc": 0.5385480244137488,
+            "val_macro_f1": 0.43344449841217375
+          },
+          {
+            "epoch": 10,
+            "val_acc": 0.5014455509155156,
+            "val_macro_f1": 0.3860443828505939
+          },
+          {
+            "epoch": 11,
+            "val_acc": 0.5351750722775458,
+            "val_macro_f1": 0.44597041344355187
+          },
+          {
+            "epoch": 12,
+            "val_acc": 0.48377770639254736,
+            "val_macro_f1": 0.4137072824927422
+          },
+          {
+            "epoch": 13,
+            "val_acc": 0.5632830067459043,
+            "val_macro_f1": 0.46834873724308146
+          },
+          {
+            "epoch": 14,
+            "val_acc": 0.5043366527465467,
+            "val_macro_f1": 0.4198889972821512
+          },
+          {
+            "epoch": 15,
+            "val_acc": 0.5395117250240925,
+            "val_macro_f1": 0.4448896584637326
+          },
+          {
+            "epoch": 16,
+            "val_acc": 0.5385480244137488,
+            "val_macro_f1": 0.4654774651765461
+          }
+        ],
+        "test_accuracy": 0.42671342978225923,
+        "test_macro_f1": 0.4418555387141079,
+        "test_correct": 2920,
+        "val_accuracy": 0.5632830067459043,
+        "val_macro_f1": 0.46834873724308146,
+        "per_species_recall": {
+          "Aphidoletes_aphidimyza": 0.9147982062780269,
+          "Bombus_terrestris": 0.5196280991735537,
+          "Bradysia_difformis": 0.5860979462875198,
+          "Coccinella_septempunctata": 0.7385321100917431,
+          "Episyrphus_balteatus": 0.8969804618117229,
+          "Halyomorpha_halys": 0.24794745484400657,
+          "Myzus_persicae": 0.005825242718446602,
+          "Nezara_viridula": 0.06866002214839424,
+          "Palomena_prasina": 0.3079710144927536,
+          "Rhaphigaster_nebulos": 0.21252796420581654,
+          "Trialeurodes_vaporariorum": 0.7293577981651376,
+          "Tuta_absoluta": 0.32673267326732675
+        }
+      },
+      "ctm_style": {
+        "best_epoch": 6,
+        "best_val_macro_f1": 0.36949024013063664,
+        "epochs_ran": 10,
+        "seconds": 145.99423146247864,
+        "history": [
+          {
+            "epoch": 1,
+            "val_acc": 0.46594924510118857,
+            "val_macro_f1": 0.3447728640090624
+          },
+          {
+            "epoch": 2,
+            "val_acc": 0.41439126244779956,
+            "val_macro_f1": 0.30796986569503443
+          },
+          {
+            "epoch": 3,
+            "val_acc": 0.4702858978477353,
+            "val_macro_f1": 0.35586961587886395
+          },
+          {
+            "epoch": 4,
+            "val_acc": 0.34677160295534853,
+            "val_macro_f1": 0.28419354510401157
+          },
+          {
+            "epoch": 5,
+            "val_acc": 0.37648570510761326,
+            "val_macro_f1": 0.30945040808763463
+          },
+          {
+            "epoch": 6,
+            "val_acc": 0.4929328621908127,
+            "val_macro_f1": 0.36949024013063664
+          },
+          {
+            "epoch": 7,
+            "val_acc": 0.43446835849662707,
+            "val_macro_f1": 0.34508094114139193
+          },
+          {
+            "epoch": 8,
+            "val_acc": 0.415033729521362,
+            "val_macro_f1": 0.265882805677546
+          },
+          {
+            "epoch": 9,
+            "val_acc": 0.46739479601670414,
+            "val_macro_f1": 0.3179339538658786
+          },
+          {
+            "epoch": 10,
+            "val_acc": 0.44796016704143915,
+            "val_macro_f1": 0.35111098915140576
+          }
+        ],
+        "test_accuracy_most_certain_tick": 0.4050854888206927,
+        "test_macro_f1_most_certain_tick": 0.3647467344727764,
+        "test_correct_most_certain": 2772,
+        "test_accuracy_final_tick": 0.394563787812363,
+        "val_accuracy_most_certain": 0.4929328621908127,
+        "val_macro_f1_most_certain": 0.36949024013063664,
+        "per_species_recall_most_certain": {
+          "Aphidoletes_aphidimyza": 0.8236173393124065,
+          "Bombus_terrestris": 0.5144628099173554,
+          "Bradysia_difformis": 0.6287519747235387,
+          "Coccinella_septempunctata": 0.3348623853211009,
+          "Episyrphus_balteatus": 0.8348134991119005,
+          "Halyomorpha_halys": 0.011494252873563218,
+          "Myzus_persicae": 0.02330097087378641,
+          "Nezara_viridula": 0.26245847176079734,
+          "Palomena_prasina": 0.29347826086956524,
+          "Rhaphigaster_nebulos": 0.22706935123042504,
+          "Trialeurodes_vaporariorum": 0.7201834862385321,
+          "Tuta_absoluta": 0.039603960396039604
+        },
+        "certainty_mean_per_tick": [
+          0.01325529906898737,
+          0.3307763338088989,
+          0.4305889308452606,
+          0.45057785511016846,
+          0.49946776032447815,
+          0.556147038936615
+        ],
+        "attention_entropy_mean_per_tick": [
+          3.16768217086792,
+          3.1691887378692627,
+          3.1677064895629883,
+          3.038921594619751,
+          2.997187376022339,
+          2.9931533336639404
+        ],
+        "chosen_tick_hist": [
+          0,
+          1109,
+          1178,
+          467,
+          1367,
+          2722
+        ],
+        "fraction_chosen_tick_is_last": 0.39777875200935264
+      },
+      "bootstrap_ctm_minus_plain": {
+        "n_boot": 1000,
+        "diff_mean": -0.021471138389595204,
+        "diff_ci95": [
+          -0.03156875639339472,
+          -0.011252374689463716
+        ],
+        "includes_zero": false
+      }
+    },
+    {
+      "seed": 1,
+      "plain": {
+        "best_epoch": 8,
+        "best_val_macro_f1": 0.463324794773797,
+        "epochs_ran": 12,
+        "seconds": 82.62665748596191,
+        "history": [
+          {
+            "epoch": 1,
+            "val_acc": 0.4245101188564086,
+            "val_macro_f1": 0.3275051481468289
+          },
+          {
+            "epoch": 2,
+            "val_acc": 0.4715708319948603,
+            "val_macro_f1": 0.3782489646729898
+          },
+          {
+            "epoch": 3,
+            "val_acc": 0.5162222936074526,
+            "val_macro_f1": 0.4165710046354823
+          },
+          {
+            "epoch": 4,
+            "val_acc": 0.5035335689045937,
+            "val_macro_f1": 0.4135856128562793
+          },
+          {
+            "epoch": 5,
+            "val_acc": 0.5404754256344363,
+            "val_macro_f1": 0.43738000619923895
+          },
+          {
+            "epoch": 6,
+            "val_acc": 0.4457115322839704,
+            "val_macro_f1": 0.34438373579584297
+          },
+          {
+            "epoch": 7,
+            "val_acc": 0.49726951493735944,
+            "val_macro_f1": 0.39734663902171946
+          },
+          {
+            "epoch": 8,
+            "val_acc": 0.5637648570510762,
+            "val_macro_f1": 0.463324794773797
+          },
+          {
+            "epoch": 9,
+            "val_acc": 0.5581432701574044,
+            "val_macro_f1": 0.4329038227140738
+          },
+          {
+            "epoch": 10,
+            "val_acc": 0.5716350787022165,
+            "val_macro_f1": 0.45207298977510013
+          },
+          {
+            "epoch": 11,
+            "val_acc": 0.5398329585608738,
+            "val_macro_f1": 0.4323992828016812
+          },
+          {
+            "epoch": 12,
+            "val_acc": 0.5356569225827177,
+            "val_macro_f1": 0.4364581853418997
+          }
+        ],
+        "test_accuracy": 0.44205757708607335,
+        "test_macro_f1": 0.4327969662320523,
+        "test_correct": 3025,
+        "val_accuracy": 0.5637648570510762,
+        "val_macro_f1": 0.463324794773797,
+        "per_species_recall": {
+          "Aphidoletes_aphidimyza": 0.922272047832586,
+          "Bombus_terrestris": 0.512396694214876,
+          "Bradysia_difformis": 0.5560821484992101,
+          "Coccinella_septempunctata": 0.8211009174311926,
+          "Episyrphus_balteatus": 0.8863232682060391,
+          "Halyomorpha_halys": 0.3891625615763547,
+          "Myzus_persicae": 0.07378640776699029,
+          "Nezara_viridula": 0.13732004429678848,
+          "Palomena_prasina": 0.20652173913043478,
+          "Rhaphigaster_nebulos": 0.2058165548098434,
+          "Trialeurodes_vaporariorum": 0.7522935779816514,
+          "Tuta_absoluta": 0.2079207920792079
+        }
+      },
+      "ctm_style": {
+        "best_epoch": 3,
+        "best_val_macro_f1": 0.35991495876126933,
+        "epochs_ran": 7,
+        "seconds": 102.58699250221252,
+        "history": [
+          {
+            "epoch": 1,
+            "val_acc": 0.369418567298426,
+            "val_macro_f1": 0.24806422769765604
+          },
+          {
+            "epoch": 2,
+            "val_acc": 0.37568262126566015,
+            "val_macro_f1": 0.2895802839927379
+          },
+          {
+            "epoch": 3,
+            "val_acc": 0.4715708319948603,
+            "val_macro_f1": 0.35991495876126933
+          },
+          {
+            "epoch": 4,
+            "val_acc": 0.38435592675875363,
+            "val_macro_f1": 0.30362654807146267
+          },
+          {
+            "epoch": 5,
+            "val_acc": 0.3949566334725345,
+            "val_macro_f1": 0.31323645714094456
+          },
+          {
+            "epoch": 6,
+            "val_acc": 0.4261162865403148,
+            "val_macro_f1": 0.3056494464795953
+          },
+          {
+            "epoch": 7,
+            "val_acc": 0.4307741728236428,
+            "val_macro_f1": 0.31086929671231245
+          }
+        ],
+        "test_accuracy_most_certain_tick": 0.3559842174484875,
+        "test_macro_f1_most_certain_tick": 0.3237629948936853,
+        "test_correct_most_certain": 2436,
+        "test_accuracy_final_tick": 0.41443811193920793,
+        "val_accuracy_most_certain": 0.4715708319948603,
+        "val_macro_f1_most_certain": 0.35991495876126933,
+        "per_species_recall_most_certain": {
+          "Aphidoletes_aphidimyza": 0.8340807174887892,
+          "Bombus_terrestris": 0.41632231404958675,
+          "Bradysia_difformis": 0.5639810426540285,
+          "Coccinella_septempunctata": 0.027522935779816515,
+          "Episyrphus_balteatus": 0.7317939609236235,
+          "Halyomorpha_halys": 0.0049261083743842365,
+          "Myzus_persicae": 0.0,
+          "Nezara_viridula": 0.17386489479512734,
+          "Palomena_prasina": 0.5108695652173914,
+          "Rhaphigaster_nebulos": 0.13758389261744966,
+          "Trialeurodes_vaporariorum": 0.5825688073394495,
+          "Tuta_absoluta": 0.07920792079207921
+        },
+        "certainty_mean_per_tick": [
+          0.25707104802131653,
+          0.29189667105674744,
+          0.47339752316474915,
+          0.4935544431209564,
+          0.42604658007621765,
+          0.5099033117294312
+        ],
+        "attention_entropy_mean_per_tick": [
+          3.1769237518310547,
+          3.1768863201141357,
+          3.1769824028015137,
+          3.176543951034546,
+          3.176837205886841,
+          3.17598557472229
+        ],
+        "chosen_tick_hist": [
+          296,
+          3,
+          2389,
+          1846,
+          286,
+          2023
+        ],
+        "fraction_chosen_tick_is_last": 0.29563057138681864
+      },
+      "bootstrap_ctm_minus_plain": {
+        "n_boot": 1000,
+        "diff_mean": -0.08608227385649571,
+        "diff_ci95": [
+          -0.09689098348677481,
+          -0.07569413999707728
+        ],
+        "includes_zero": false
+      }
+    },
+    {
+      "seed": 2,
+      "plain": {
+        "best_epoch": 14,
+        "best_val_macro_f1": 0.47457581590161396,
+        "epochs_ran": 16,
+        "seconds": 101.85932517051697,
+        "history": [
+          {
+            "epoch": 1,
+            "val_acc": 0.4161580469000964,
+            "val_macro_f1": 0.3340927387832047
+          },
+          {
+            "epoch": 2,
+            "val_acc": 0.46418246064889174,
+            "val_macro_f1": 0.38583591043127674
+          },
+          {
+            "epoch": 3,
+            "val_acc": 0.46900096370061034,
+            "val_macro_f1": 0.38096305286566357
+          },
+          {
+            "epoch": 4,
+            "val_acc": 0.4913266945069065,
+            "val_macro_f1": 0.4106083768846711
+          },
+          {
+            "epoch": 5,
+            "val_acc": 0.477192418888532,
+            "val_macro_f1": 0.39371202627806196
+          },
+          {
+            "epoch": 6,
+            "val_acc": 0.5014455509155156,
+            "val_macro_f1": 0.40856640558899576
+          },
+          {
+            "epoch": 7,
+            "val_acc": 0.5186315451333119,
+            "val_macro_f1": 0.4058872015237826
+          },
+          {
+            "epoch": 8,
+            "val_acc": 0.5106007067137809,
+            "val_macro_f1": 0.41222956579307457
+          },
+          {
+            "epoch": 9,
+            "val_acc": 0.5330870542884677,
+            "val_macro_f1": 0.4308262150461495
+          },
+          {
+            "epoch": 10,
+            "val_acc": 0.548185030517186,
+            "val_macro_f1": 0.4392185707711223
+          },
+          {
+            "epoch": 11,
+            "val_acc": 0.529553485383874,
+            "val_macro_f1": 0.4350905719923773
+          },
+          {
+            "epoch": 12,
+            "val_acc": 0.5271442338580148,
+            "val_macro_f1": 0.45432591877802314
+          },
+          {
+            "epoch": 13,
+            "val_acc": 0.5446514616125924,
+            "val_macro_f1": 0.442147267560044
+          },
+          {
+            "epoch": 14,
+            "val_acc": 0.5918727915194346,
+            "val_macro_f1": 0.47457581590161396
+          },
+          {
+            "epoch": 15,
+            "val_acc": 0.5261805332476711,
+            "val_macro_f1": 0.41976971935229296
+          },
+          {
+            "epoch": 16,
+            "val_acc": 0.5359781561194988,
+            "val_macro_f1": 0.4427942569025001
+          }
+        ],
+        "test_accuracy": 0.45316381703931025,
+        "test_macro_f1": 0.4561039110591632,
+        "test_correct": 3101,
+        "val_accuracy": 0.5918727915194346,
+        "val_macro_f1": 0.47457581590161396,
+        "per_species_recall": {
+          "Aphidoletes_aphidimyza": 0.9417040358744395,
+          "Bombus_terrestris": 0.46384297520661155,
+          "Bradysia_difformis": 0.6951026856240127,
+          "Coccinella_septempunctata": 0.7889908256880734,
+          "Episyrphus_balteatus": 0.8916518650088809,
+          "Halyomorpha_halys": 0.11494252873563218,
+          "Myzus_persicae": 0.0,
+          "Nezara_viridula": 0.1362126245847176,
+          "Palomena_prasina": 0.2807971014492754,
+          "Rhaphigaster_nebulos": 0.4429530201342282,
+          "Trialeurodes_vaporariorum": 0.4908256880733945,
+          "Tuta_absoluta": 0.5643564356435643
+        }
+      },
+      "ctm_style": {
+        "best_epoch": 2,
+        "best_val_macro_f1": 0.34191305588787907,
+        "epochs_ran": 6,
+        "seconds": 92.0220513343811,
+        "history": [
+          {
+            "epoch": 1,
+            "val_acc": 0.3957597173144876,
+            "val_macro_f1": 0.27985835925531427
+          },
+          {
+            "epoch": 2,
+            "val_acc": 0.4739800835207196,
+            "val_macro_f1": 0.34191305588787907
+          },
+          {
+            "epoch": 3,
+            "val_acc": 0.36122711211050434,
+            "val_macro_f1": 0.2878371610618129
+          },
+          {
+            "epoch": 4,
+            "val_acc": 0.42145840025698683,
+            "val_macro_f1": 0.33631795647193075
+          },
+          {
+            "epoch": 5,
+            "val_acc": 0.4524574365563765,
+            "val_macro_f1": 0.31497408251684594
+          },
+          {
+            "epoch": 6,
+            "val_acc": 0.41390941214262766,
+            "val_macro_f1": 0.30924871874969245
+          }
+        ],
+        "test_accuracy_most_certain_tick": 0.37775829314628084,
+        "test_macro_f1_most_certain_tick": 0.3314555094127159,
+        "test_correct_most_certain": 2585,
+        "test_accuracy_final_tick": 0.3103901797457256,
+        "val_accuracy_most_certain": 0.4739800835207196,
+        "val_macro_f1_most_certain": 0.34191305588787907,
+        "per_species_recall_most_certain": {
+          "Aphidoletes_aphidimyza": 0.8923766816143498,
+          "Bombus_terrestris": 0.38739669421487605,
+          "Bradysia_difformis": 0.2401263823064771,
+          "Coccinella_septempunctata": 0.5504587155963303,
+          "Episyrphus_balteatus": 0.8685612788632326,
+          "Halyomorpha_halys": 0.36617405582922824,
+          "Myzus_persicae": 0.0,
+          "Nezara_viridula": 0.0753045404208195,
+          "Palomena_prasina": 0.06159420289855073,
+          "Rhaphigaster_nebulos": 0.5413870246085011,
+          "Trialeurodes_vaporariorum": 0.1651376146788991,
+          "Tuta_absoluta": 0.06930693069306931
+        },
+        "certainty_mean_per_tick": [
+          0.16096502542495728,
+          0.18392422795295715,
+          0.22041624784469604,
+          0.2812163233757019,
+          0.41723957657814026,
+          0.484145849943161
+        ],
+        "attention_entropy_mean_per_tick": [
+          3.172536849975586,
+          3.171802520751953,
+          3.1700825691223145,
+          3.168179988861084,
+          3.159172773361206,
+          3.1472928524017334
+        ],
+        "chosen_tick_hist": [
+          3,
+          23,
+          223,
+          2139,
+          1686,
+          2769
+        ],
+        "fraction_chosen_tick_is_last": 0.40464708461201226
+      },
+      "bootstrap_ctm_minus_plain": {
+        "n_boot": 1000,
+        "diff_mean": -0.07551220225047493,
+        "diff_ci95": [
+          -0.08680768668712556,
+          -0.06356495689025284
+        ],
+        "includes_zero": false
+      }
+    }
+  ],
+  "summary": {
+    "plain_acc": {
+      "values": [
+        0.42671342978225923,
+        0.44205757708607335,
+        0.45316381703931025
+      ],
+      "mean": 0.44064494130254755,
+      "min": 0.42671342978225923,
+      "max": 0.45316381703931025,
+      "spread_max_minus_min": 0.02645038725705101
+    },
+    "plain_f1": {
+      "values": [
+        0.4418555387141079,
+        0.4327969662320523,
+        0.4561039110591632
+      ],
+      "mean": 0.44358547200177445,
+      "min": 0.4327969662320523,
+      "max": 0.4561039110591632,
+      "spread_max_minus_min": 0.023306944827110876
+    },
+    "ctm_acc": {
+      "values": [
+        0.4050854888206927,
+        0.3559842174484875,
+        0.37775829314628084
+      ],
+      "mean": 0.37960933313848705,
+      "min": 0.3559842174484875,
+      "max": 0.4050854888206927,
+      "spread_max_minus_min": 0.04910127137220516
+    },
+    "ctm_f1": {
+      "values": [
+        0.3647467344727764,
+        0.3237629948936853,
+        0.3314555094127159
+      ],
+      "mean": 0.33998841292639254,
+      "min": 0.3237629948936853,
+      "max": 0.3647467344727764,
+      "spread_max_minus_min": 0.04098373957909107
+    },
+    "diff": {
+      "values": [
+        -0.02162794096156656,
+        -0.08607335963758583,
+        -0.0754055238930294
+      ],
+      "mean": -0.0610356081640606,
+      "min": -0.08607335963758583,
+      "max": -0.02162794096156656,
+      "spread_max_minus_min": 0.06444541867601927
+    },
+    "frac_last": {
+      "values": [
+        0.39777875200935264,
+        0.29563057138681864,
+        0.40464708461201226
+      ],
+      "mean": 0.3660188026693945,
+      "min": 0.29563057138681864,
+      "max": 0.40464708461201226,
+      "spread_max_minus_min": 0.10901651322519362
+    },
+    "bootstrap_includes_zero": [
+      false,
+      false,
+      false
+    ],
+    "plain_recall": {
+      "Aphidoletes_aphidimyza": {
+        "values": [
+          0.9147982062780269,
+          0.922272047832586,
+          0.9417040358744395
+        ],
+        "mean": 0.9262580966616841
+      },
+      "Bombus_terrestris": {
+        "values": [
+          0.5196280991735537,
+          0.512396694214876,
+          0.46384297520661155
+        ],
+        "mean": 0.4986225895316804
+      },
+      "Bradysia_difformis": {
+        "values": [
+          0.5860979462875198,
+          0.5560821484992101,
+          0.6951026856240127
+        ],
+        "mean": 0.6124275934702474
+      },
+      "Coccinella_septempunctata": {
+        "values": [
+          0.7385321100917431,
+          0.8211009174311926,
+          0.7889908256880734
+        ],
+        "mean": 0.7828746177370031
+      },
+      "Episyrphus_balteatus": {
+        "values": [
+          0.8969804618117229,
+          0.8863232682060391,
+          0.8916518650088809
+        ],
+        "mean": 0.8916518650088809
+      },
+      "Halyomorpha_halys": {
+        "values": [
+          0.24794745484400657,
+          0.3891625615763547,
+          0.11494252873563218
+        ],
+        "mean": 0.25068418171866447
+      },
+      "Myzus_persicae": {
+        "values": [
+          0.005825242718446602,
+          0.07378640776699029,
+          0.0
+        ],
+        "mean": 0.026537216828478965
+      },
+      "Nezara_viridula": {
+        "values": [
+          0.06866002214839424,
+          0.13732004429678848,
+          0.1362126245847176
+        ],
+        "mean": 0.11406423034330011
+      },
+      "Palomena_prasina": {
+        "values": [
+          0.3079710144927536,
+          0.20652173913043478,
+          0.2807971014492754
+        ],
+        "mean": 0.26509661835748793
+      },
+      "Rhaphigaster_nebulos": {
+        "values": [
+          0.21252796420581654,
+          0.2058165548098434,
+          0.4429530201342282
+        ],
+        "mean": 0.2870991797166294
+      },
+      "Trialeurodes_vaporariorum": {
+        "values": [
+          0.7293577981651376,
+          0.7522935779816514,
+          0.4908256880733945
+        ],
+        "mean": 0.6574923547400612
+      },
+      "Tuta_absoluta": {
+        "values": [
+          0.32673267326732675,
+          0.2079207920792079,
+          0.5643564356435643
+        ],
+        "mean": 0.3663366336633664
+      }
+    },
+    "ctm_recall": {
+      "Aphidoletes_aphidimyza": {
+        "values": [
+          0.8236173393124065,
+          0.8340807174887892,
+          0.8923766816143498
+        ],
+        "mean": 0.8500249128051819
+      },
+      "Bombus_terrestris": {
+        "values": [
+          0.5144628099173554,
+          0.41632231404958675,
+          0.38739669421487605
+        ],
+        "mean": 0.4393939393939394
+      },
+      "Bradysia_difformis": {
+        "values": [
+          0.6287519747235387,
+          0.5639810426540285,
+          0.2401263823064771
+        ],
+        "mean": 0.4776197998946814
+      },
+      "Coccinella_septempunctata": {
+        "values": [
+          0.3348623853211009,
+          0.027522935779816515,
+          0.5504587155963303
+        ],
+        "mean": 0.3042813455657492
+      },
+      "Episyrphus_balteatus": {
+        "values": [
+          0.8348134991119005,
+          0.7317939609236235,
+          0.8685612788632326
+        ],
+        "mean": 0.8117229129662521
+      },
+      "Halyomorpha_halys": {
+        "values": [
+          0.011494252873563218,
+          0.0049261083743842365,
+          0.36617405582922824
+        ],
+        "mean": 0.12753147235905857
+      },
+      "Myzus_persicae": {
+        "values": [
+          0.02330097087378641,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0077669902912621365
+      },
+      "Nezara_viridula": {
+        "values": [
+          0.26245847176079734,
+          0.17386489479512734,
+          0.0753045404208195
+        ],
+        "mean": 0.17054263565891473
+      },
+      "Palomena_prasina": {
+        "values": [
+          0.29347826086956524,
+          0.5108695652173914,
+          0.06159420289855073
+        ],
+        "mean": 0.2886473429951691
+      },
+      "Rhaphigaster_nebulos": {
+        "values": [
+          0.22706935123042504,
+          0.13758389261744966,
+          0.5413870246085011
+        ],
+        "mean": 0.3020134228187919
+      },
+      "Trialeurodes_vaporariorum": {
+        "values": [
+          0.7201834862385321,
+          0.5825688073394495,
+          0.1651376146788991
+        ],
+        "mean": 0.48929663608562696
+      },
+      "Tuta_absoluta": {
+        "values": [
+          0.039603960396039604,
+          0.07920792079207921,
+          0.06930693069306931
+        ],
+        "mean": 0.0627062706270627
+      }
+    }
+  }
+}

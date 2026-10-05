@@ -1,0 +1,6 @@
+raw/
+*.pt
+*.npz
+embeddings_*
+weights/
+__pycache__/
